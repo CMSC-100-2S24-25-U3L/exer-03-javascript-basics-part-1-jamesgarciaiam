@@ -7,3 +7,6 @@ Date: February 19, 2025
 Code Description: JavaScript Basics Part 1
 
 Key Takeaways on Exercise: 
+1. I'm learning firsthand that int data type is not in JavaScript. You need to use var. 
+2. The functions are no different when using R. 
+3. There's a triple equality operator (===) in JavaScript. 

@@ -8,7 +8,7 @@ function valid_passwords(pass1, pass2){ //check validity of passwords
             for(let char of pass1){
                 if(char >= '0' && char <= '9') num_count++; //increment when a number is given
                 if(char >= 'a' && char <= 'z') low_count++; //increment when lowercase is given
-                if(char >= 'A' && char <= 'Z') up_count++; //increment when a uppercase is given
+                if(char >= 'A' && char <= 'Z') up_count++; //increment when uppercase is given
             }
             if(num_count > 0 && low_count > 0 && up_count > 0){
                 return true; //if all counters are more than 0, return true
